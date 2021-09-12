@@ -1,0 +1,13 @@
+name: GearTanks
+version: ${project.version}
+main: me.mastrio.geartanks.GearTanks
+api-version: 1.17
+authors: [ MASTRIO ]
+description: A plugin that lets you code stuff
+
+commands:
+  gearTank:
+    usage: /gearTank
+    description: Gives you a gear tank (DEBUG)
+    permission: geartank.debug
+    permission-message: get permission from your mum first
